@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.badge-watched { 
+    background-color: #28a745; 
+}
+.badge-pending { 
+    background-color: #ffc107; color: black; 
+}
+.fade-in { 
+    animation: fadeIn 0.5s ease-in; 
+}
+
+
+/*  */
+@keyframes fadeIn {  
+    from { 
+        opacity: 0; transform: translateY(10px); 
+    }
+    to { 
+        opacity: 1; transform: translateY(0);
+    }
+}
